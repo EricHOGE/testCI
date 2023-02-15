@@ -4,7 +4,10 @@
 	"description": "Hello !!!",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"start": "node index.js",
+		"lint": "eslint .",
+		"prettier": "prettier --write ."
 	},
 	"repository": {
 		"type": "git",
@@ -15,5 +18,8 @@
 	"bugs": {
 		"url": "https://github.com/EricHOGE/testCI/issues"
 	},
-	"homepage": "https://github.com/EricHOGE/testCI#readme"
+	"homepage": "https://github.com/EricHOGE/testCI#readme",
+	"devDependencies": {
+		"jest": "^29.4.2"
+	}
 }
